@@ -2,9 +2,10 @@ package priority
 
 import (
 	"fmt"
+	"testing"
 )
 
-func Example() {
+func TestExample(t *testing.T) {
 	// Some items and their priorities.
 	items := map[string]int{
 		"banana": 3, "apple": 2, "pear": 4,

@@ -16,7 +16,7 @@ func (q Queue[T]) Len() int {
 }
 
 func (q Queue[T]) Less(i, j int) bool {
-	return q[i].priority > q[j].priority
+	return q[i].priority < q[j].priority
 }
 
 func (q Queue[T]) Swap(i, j int) {
